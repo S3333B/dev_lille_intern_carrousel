@@ -101,4 +101,30 @@ export const PROFILES = [
       github: "https://github.com/Litoxam",
     },
   },
+  {
+    name: "Elliot C.",           // ton prénom + initiale du nom
+    accent: "#ff6a00",           // couleur de ton profil (voir palette ci-dessous)
+    search: "Alternance",        // type de contrat recherché : "Alternance", "Stage", "CDI"
+    role: "Developpeur Machine Learning",       // ton intitulé de poste
+    rhythm: "4j / 1j",   // rythme d'alternance (ou "" si pas concerné)
+    available: "aout/septembre ou novembre 2026",     // date de disponibilité
+    avatar: "/avatars/Elliot_CHARLET.jpg",  // chemin vers ta photo (étape 2)
+    stack: [
+      { name: "Linux", icon: "devicon-linux-plain" },
+      { name: "C",   icon: "devicon-c-plain" },
+      { name: "Python",  icon: "devicon-python-plain" },
+      { name: "JavaScript",  icon: "devicon-javascript-plain" },
+      { name: "MySQL",  icon: "devicon-mysql-plain" },
+      { name: "MongoDB",  icon: "devicon-mongodb-plain" },
+      { name: "CSS",  icon: "devicon-css3-plain" },
+      { name: "HTML",  icon: "devicon-html5-plain" },
+      { name: "Git",  icon: "devicon-git-plain" },
+      { name: "Docker", icon: "devicon-docker-plain" },
+    ],
+    quote: "Si t'as 2 minutes n'hesites pas à ce qu'on discute bases de données et bases vectorielles",
+    links: {
+      linkedin: "https://www.linkedin.com/in/elliot-charlet/",
+      github: "https://github.com/aragoza",
+    },
+  },
 ]
