@@ -65,4 +65,32 @@ export const PROFILES = [
       github: "https://github.com/GuillaumeVaudet",
     },
   },
+  {
+    name: "Maxime B.",           // ton prénom + initiale du nom
+    accent: "#ff6a00",           // couleur de ton profil (voir palette ci-dessous)
+    search: "Alternance",        // type de contrat recherché : "Alternance", "Stage", "CDI"
+    role: "Dev Fullstack",       // ton intitulé de poste
+    rhythm: "4 jours. / 1 jour.",   // rythme d'alternance (ou "" si pas concerné)
+    available: "déc. 2026",     // date de disponibilité
+    avatar: "/avatars/bernier_maxime.jpg",  // chemin vers ta photo (étape 2)
+    stack: [
+      { name: "C",   icon: "devicon-c-plain" },
+      { name: "JavaScript",  icon: "devicon-javascript-plain" },
+      { name: "Python",  icon: "devicon-python-plain" },
+      { name: "Java",  icon: "devicon-java-plain-wordmark" },
+      { name: "MySQL",  icon: "devicon-mysql-plain" },
+      { name: "HTML5",  icon: "devicon-html5-plain" },
+      { name: "CSS3",  icon: "devicon-css3-plain" },
+      { name: "Linux",  icon: "devicon-linux-plain" },
+      { name: "Bash",  icon: "devicon-bash-plain" },
+      { name: "Git",  icon: "devicon-git-plain" }
+      
+      // ajoute autant de technos que tu veux
+    ],
+    quote: "Faire du code et coder de la musique... ou l'inverse.",
+    links: {
+      linkedin: "https://www.linkedin.com/in/maxime-bernier-dev/",
+      github: "https://github.com/Litoxam",
+    },
+  },
 ]
