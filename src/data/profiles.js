@@ -64,7 +64,7 @@ export const PROFILES = [
       { name: "Terraform", icon: "devicon-terraform-plain" },
       { name: "Git", icon: "devicon-git-plain" },
       { name: "Docker", icon: "devicon-docker-plain" },
-      { name: "AWS", icon: "devicon-amazonwebservices-plain-wordmark"},
+      { name: "AWS", icon: "devicon-amazonwebservices-plain-wordmark" },
       { name: "Prometheus", icon: "devicon-prometheus-original" },
     ],
     quote: "Tout est exploitable. Surtout la pause café.",
@@ -82,17 +82,17 @@ export const PROFILES = [
     available: "déc. 2026",     // date de disponibilité
     avatar: "/avatars/bernier_maxime.jpg",  // chemin vers ta photo (étape 2)
     stack: [
-      { name: "C",   icon: "devicon-c-plain" },
-      { name: "JavaScript",  icon: "devicon-javascript-plain" },
-      { name: "Python",  icon: "devicon-python-plain" },
-      { name: "Java",  icon: "devicon-java-plain-wordmark" },
-      { name: "MySQL",  icon: "devicon-mysql-plain" },
-      { name: "HTML5",  icon: "devicon-html5-plain" },
-      { name: "CSS3",  icon: "devicon-css3-plain" },
-      { name: "Linux",  icon: "devicon-linux-plain" },
-      { name: "Bash",  icon: "devicon-bash-plain" },
-      { name: "Git",  icon: "devicon-git-plain" }
-      
+      { name: "C", icon: "devicon-c-plain" },
+      { name: "JavaScript", icon: "devicon-javascript-plain" },
+      { name: "Python", icon: "devicon-python-plain" },
+      { name: "Java", icon: "devicon-java-plain-wordmark" },
+      { name: "MySQL", icon: "devicon-mysql-plain" },
+      { name: "HTML5", icon: "devicon-html5-plain" },
+      { name: "CSS3", icon: "devicon-css3-plain" },
+      { name: "Linux", icon: "devicon-linux-plain" },
+      { name: "Bash", icon: "devicon-bash-plain" },
+      { name: "Git", icon: "devicon-git-plain" }
+
       // ajoute autant de technos que tu veux
     ],
     quote: "Faire du code et coder de la musique... ou l'inverse.",
@@ -111,20 +111,46 @@ export const PROFILES = [
     avatar: "/avatars/Elliot_CHARLET.jpg",  // chemin vers ta photo (étape 2)
     stack: [
       { name: "Linux", icon: "devicon-linux-plain" },
-      { name: "C",   icon: "devicon-c-plain" },
-      { name: "Python",  icon: "devicon-python-plain" },
-      { name: "JavaScript",  icon: "devicon-javascript-plain" },
-      { name: "MySQL",  icon: "devicon-mysql-plain" },
-      { name: "MongoDB",  icon: "devicon-mongodb-plain" },
-      { name: "CSS",  icon: "devicon-css3-plain" },
-      { name: "HTML",  icon: "devicon-html5-plain" },
-      { name: "Git",  icon: "devicon-git-plain" },
+      { name: "C", icon: "devicon-c-plain" },
+      { name: "Python", icon: "devicon-python-plain" },
+      { name: "JavaScript", icon: "devicon-javascript-plain" },
+      { name: "MySQL", icon: "devicon-mysql-plain" },
+      { name: "MongoDB", icon: "devicon-mongodb-plain" },
+      { name: "CSS", icon: "devicon-css3-plain" },
+      { name: "HTML", icon: "devicon-html5-plain" },
+      { name: "Git", icon: "devicon-git-plain" },
       { name: "Docker", icon: "devicon-docker-plain" },
     ],
     quote: "Si t'as 2 minutes n'hesites pas à ce qu'on discute bases de données et bases vectorielles",
     links: {
       linkedin: "https://www.linkedin.com/in/elliot-charlet/",
       github: "https://github.com/aragoza",
+    },
+  },
+  {
+    name: "Saniez S.",           // ton prénom + initiale du nom
+    accent: "#ff6a00",           // couleur de ton profil (voir palette ci-dessous)
+    search: "CDD, CDI",        // type de contrat recherché : "Alternance", "Stage", "CDI"
+    role: "Dev Back-end, Android",       // ton intitulé de poste   // rythme d'alternance (ou "" si pas concerné)
+    available: "Now",     // date de disponibilité
+    avatar: "/avatars/christophe_saniez.jpg",  // chemin vers ta photo (étape 2)
+    stack: [
+      { name: "Flutter", icon: "devicon-flutter-plain" },
+      { name: "Linux", icon: "devicon-linux-plain" },
+      { name: "C", icon: "devicon-c-plain" },
+      { name: "Python", icon: "devicon-python-plain" },
+      { name: "JavaScript", icon: "devicon-javascript-plain" },
+      { name: "MySQL", icon: "devicon-mysql-plain" },
+      { name: "Supabase", icon: "devicon-postgresql-plain" },
+      { name: "CSS", icon: "devicon-css3-plain" },
+      { name: "HTML", icon: "devicon-html5-plain" },
+      { name: "Git", icon: "devicon-git-plain" },
+      { name: "Docker", icon: "devicon-docker-plain" },
+    ],
+    quote: "Développeur passionné formé aux fondamentaux du logiciel, j'apporte ma maturité professionnelle et ma rigueur au service de vos applications.",
+    links: {
+      linkedin: "https://www.linkedin.com/in/saniez-lenthieul-christophe/",
+      github: "https://github.com/Saniez-l",
     },
   },
 ]
