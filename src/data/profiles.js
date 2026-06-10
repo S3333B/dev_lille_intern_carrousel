@@ -156,4 +156,32 @@ export const PROFILES = [
     github: "https://github.com/Lunaruo",
   },
 },
+  {
+  name: "Robin B.",           // ton prénom + initiale du nom
+  accent: "#ff1100",           // couleur de ton profil (voir palette ci-dessous)
+  search: "Alternance",        // type de contrat recherché : "Alternance", "Stage", "CDI"
+  role: "CYBERSÉCURITÉ/DEVOPS",       // ton intitulé de poste
+  rhythm: "4 jours / 1 jour.",   // rythme d'alternance (ou "" si pas concerné)
+  available: "sept 2026/Oct 2026",     // date de disponibilité
+  avatar: "/avatars/robin_bouvier.jpg",  // chemin vers ta photo (étape 2)
+  stack: [
+    { name: "HTML5",   icon: "devicon-html5-plain" },
+    { name: "CSS",   icon: "devicon-css3-plain" },
+    { name: "Python",  icon: "devicon-python-plain" },
+    { name: "Docker",  icon: "devicon-docker-plain" },
+    { name: "C",  icon: "devicon-c-plain" },
+    { name: "Git",  icon: "devicon-git-plain" },
+    { name: "Bash",  icon: "devicon-bash-plain" },
+    { name: "Linux",  icon: "devicon-linux-plain" },
+    { name: "Ansible", icon: "devicon-ansible-plain" },
+    { name: "Terraform", icon: "devicon-terraform-plain" },
+    { name: "Prometheus", icon: "devicon-prometheus-original" },
+    // ajoute autant de technos que tu veux
+  ],
+  quote: "Mon mot de passe est tellement sécurisé que même moi, je ne le retrouve plus..",
+  links: {
+    linkedin: "www.linkedin.com/in/robin-bouvier",
+    github: "https://github.com/Robin73389",
+  },
+},
 ]
