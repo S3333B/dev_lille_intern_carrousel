@@ -60,7 +60,7 @@ body::before {
 .slide {
   position: absolute; inset: 0;
   display: grid;
-  grid-template-columns: 1.1fr 1fr;
+  grid-template-columns: 1fr 1.3fr;
   gap: clamp(24px, 5vw, 80px);
   align-items: center;
   opacity: 0; visibility: hidden;
@@ -89,7 +89,7 @@ body::before {
 .avatar .initial { font-family: 'Anton'; font-size: clamp(105px, 18vw, 225px); color: var(--accent); line-height: 1; }
 .avatar-tag { font-family: 'Space Mono', monospace; font-size: 17px; letter-spacing: 2px; color: var(--muted); text-transform: uppercase; }
 
-.info { display: flex; flex-direction: column; gap: 21px; max-width: 700px; }
+.info { display: flex; flex-direction: column; gap: 21px; max-width: 1000px; }
 .pseudo { font-family: 'Anton'; font-size: clamp(54px, 8.25vw, 102px); line-height: 0.92; text-transform: uppercase; letter-spacing: 1px; }
 
 .role { display: flex; flex-direction: column; gap: 10px; }
