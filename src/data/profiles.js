@@ -161,4 +161,27 @@ export const PROFILES = [
     github: "https://github.com/Lunaruo",
   },
 },
+{
+  name: "Ulysse D.",
+  accent: "#ff4500",
+  search: "Stage, Alternance",
+  role: "Cybersécurité",
+  rhythm: "3 sem. / 1 sem.",
+  available: "sept. 2026",
+  avatar: "/avatars/ulysse_dewaleyne.jpg",
+  stack: [
+      { name: "C",   icon: "devicon-c-plain" },
+      { name: "Bash",  icon: "devicon-bash-plain" },
+      { name: "Python",  icon: "devicon-python-plain" },
+      { name: "Linux", icon: "devicon-linux-plain" },
+      { name: "Git",  icon: "devicon-git-plain" },
+      { name: "MySQL",  icon: "devicon-mysql-plain" },
+      { name: "Docker",  icon: "devicon-docker-plain" },
+  ],
+  quote: "Je parle chinois mais je ne comprends plus mes noms de variables.",
+  links: {
+    linkedin: "https://www.linkedin.com/in/udewaleynepro/",
+    github: "https://github.com/udcyber",
+  },
+},
 ]
