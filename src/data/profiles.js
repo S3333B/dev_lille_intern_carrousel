@@ -166,7 +166,7 @@ export const PROFILES = [
   accent: "#ff4500",
   search: "Stage, Alternance",
   role: "Cybersécurité",
-  rhythm: "3 sem. / 1 sem.",
+  rhythm: "4 jours / 1 jour.",
   available: "sept. 2026",
   avatar: "/avatars/ulysse_dewaleyne.jpg",
   stack: [
