@@ -153,4 +153,34 @@ export const PROFILES = [
       github: "https://github.com/Saniez-l",
     },
   },
+{
+  name: "Léo L.",           // ton prénom + initiale du nom
+  accent: "#f5a623",           // couleur de ton profil (voir palette ci-dessous)
+  search: "Alternance",        // type de contrat recherché : "Alternance", "Stage", "CDI"
+  role: "Machine Learning",       // ton intitulé de poste
+  rhythm: "4 jours. / 1 jour.",   // rythme d'alternance (ou "" si pas concerné)
+  available: "déc. 2026",     // date de disponibilité
+  avatar: "/avatars/leo_lebtahi.jpg",  // chemin vers ta photo (étape 2)
+  stack: [
+      { name: "Linux", icon: "devicon-linux-plain" },
+      { name: "C",   icon: "devicon-c-plain" },
+      { name: "Python",  icon: "devicon-python-plain" },
+      { name: "JavaScript",  icon: "devicon-javascript-plain" },
+      { name: "Docker",  icon: "devicon-docker-plain" },
+      { name: "HTML5",  icon: "devicon-html5-plain" },
+      { name: "CSS3",  icon: "devicon-css3-plain" },
+      { name: "Linux",  icon: "devicon-linux-plain" },
+      { name: "Bash",  icon: "devicon-bash-plain" },
+      { name: "Git",  icon: "devicon-git-plain" },
+      { name: "MySQL",  icon: "devicon-mysql-plain" },
+
+
+    // ajoute autant de technos que tu veux
+  ],
+  quote: "Bien comprendre son data, le défi d'une bonne entreprise.",
+  links: {
+    linkedin: "https://www.linkedin.com/in/lebtahi-léo-902596309",
+    github: "https://github.com/Lunaruo",
+  },
+},
 ]
