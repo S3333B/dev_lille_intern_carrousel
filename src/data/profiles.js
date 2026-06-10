@@ -176,6 +176,7 @@ export const PROFILES = [
     { name: "Ansible", icon: "devicon-ansible-plain" },
     { name: "Terraform", icon: "devicon-terraform-plain" },
     { name: "Prometheus", icon: "devicon-prometheus-original" },
+    { name: "MySQL", icon: "devicon-mysql-original" },
     // ajoute autant de technos que tu veux
   ],
   quote: "Mon mot de passe est tellement sécurisé que même moi, je ne le retrouve plus..",
